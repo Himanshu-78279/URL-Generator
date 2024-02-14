@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 550px;
+    width: 400px;
+    /* min-height: 250px; */
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+#pText{
+    position: absolute;
+    text-align: center;
+    margin-top: 20px; 
+    margin-left: 70px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#qrText{
+    margin-top: 80px;
+    margin-left: 70px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#qrContainer{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 256px;
+    height: 256px;
+    box-sizing: border-box;
+}
+
+#generateBtn{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: rgb(40, 50, 239);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
